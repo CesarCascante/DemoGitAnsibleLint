@@ -6,7 +6,7 @@
     - name: Use command instead of module
       command: echo "Hello"
 
-    - name: Say Hello
+    - name: say hello
       debug:
         msg: "Hello, world!"
 
