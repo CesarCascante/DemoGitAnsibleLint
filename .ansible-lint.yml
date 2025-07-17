@@ -1,8 +1,7 @@
 ---
 # .ansible-lint
 
-profile: 
-  - moderate
+profile: moderate
 
 exclude_paths:
   - .github/
