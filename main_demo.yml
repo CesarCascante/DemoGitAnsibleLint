@@ -6,3 +6,7 @@
     - name: Say Hello
       debug:
         msg: "Hello, world!"
+
+    - name: "{{ ansible_hostname }}  {{ ansible_date_time.date }}"
+      ansible.builtin.imprimir:
+        msg: "Fecha: {{ ansible_date_time.date }} nombre: {{ ansible_hostname  }}."
