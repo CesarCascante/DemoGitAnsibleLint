@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: check code out from github and into "ubuntu-latest" (or our environment)
         uses: actions/checkout@v4
-      - name: lint ansible playbook playbook.yml
-        uses: ansible/ansible-lint@main   # this is there branch
+      # - name: lint ansible playbook playbook.yml
+      #   uses: ansible/ansible-lint@main   # this is there branch
+      - name: Run ansible-lint with config
+        run: |
+          pip install ansible-lint
+          ansible-lint -c .ansible-lint.yml playbook.yml
