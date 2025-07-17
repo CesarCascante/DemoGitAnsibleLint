@@ -11,7 +11,7 @@
         msg: "Hello, world!"
 
     - name: "{{ ansible_hostname }}  {{ ansible_date_time.date }}"
-      ansible.builtin.imprimir:
+      ansible.builtin.debug:
         msg: "Fecha: {{ ansible_date_time.date }} nombre: {{ ansible_hostname  }}."
 
     - name: Say Hello 2
