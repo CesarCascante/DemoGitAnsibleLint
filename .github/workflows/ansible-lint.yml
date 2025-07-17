@@ -11,4 +11,4 @@ jobs:
       - name: Run ansible-lint with config
         run: |
           pip install ansible-lint
-          ansible-lint -c .ansible-lint.yml playbook.yml
+          ansible-lint -c .ansible-lint.yml .
