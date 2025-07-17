@@ -2,7 +2,10 @@
 - name: prueba de lint 
   hosts: all
   tasks:
-  
+
+    - name: Use command instead of module
+      command: echo "Hello"
+      
     - name: Say Hello
       debug:
         msg: "Hello, world!"
