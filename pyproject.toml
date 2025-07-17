@@ -1,2 +1,2 @@
 [tool.ansible-lint]
-profiles.enabled = "moderate"
+profile = "moderate"
