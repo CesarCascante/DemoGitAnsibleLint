@@ -5,7 +5,7 @@
 
     - name: Use command instead of module
       command: echo "Hello"
-      
+
     - name: Say Hello
       debug:
         msg: "Hello, world!"
@@ -17,3 +17,6 @@
     - name: Say Hello 2
       debug:
         msg: "Hello, world 2!"
+
+    - name: Use command instead of module 2
+      command: echo "Hello 2"
