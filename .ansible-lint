@@ -7,3 +7,4 @@ exclude_paths:
   - .github/
   - .ansible-lint
   - README.md
+  - pyproject.toml
