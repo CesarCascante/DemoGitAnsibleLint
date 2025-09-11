@@ -1,3 +1,2 @@
 [tool.ansible-lint]
 profile = "moderate"
-verbosity = 1
